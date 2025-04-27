@@ -1,0 +1,23 @@
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: Montserrat;
+  font-size: 1.6rem;
+}
+
+.layout {
+  width: 100%;
+  min-height: 100%;
+  position: absolute;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.layout__main {
+  width: 50rem;
+}
